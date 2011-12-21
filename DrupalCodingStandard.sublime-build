@@ -1,0 +1,4 @@
+{
+  "cmd": ["phpcs", "--standard=DrupalCodingStandard", "--extensions=php,module,inc,install,test,profile,theme", "$file"],
+  "file_regex": "^(...*?):([0-9]*):?([0-9]*)"
+}
